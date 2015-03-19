@@ -69,7 +69,7 @@ class Document: NSDocument {
 
 				let imageRect: NSRect = NSRect(
 					x: 0, y: 0,
-					width: 500, height: 500)
+					width: 2000, height: 2000)
 				let viewOff = SDPDotView(
 					frame: imageRect,
 					dots: self,
