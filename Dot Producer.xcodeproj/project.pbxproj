@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B1F8371ABB4462001DE91D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F8361ABB4462001DE91D /* AppDelegate.swift */; };
+		76B1F8391ABB4462001DE91D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F8381ABB4462001DE91D /* Document.swift */; };
+		76B1F83C1ABB4462001DE91D /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B1F83A1ABB4462001DE91D /* Document.xib */; };
+		76B1F83E1ABB4462001DE91D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B1F83D1ABB4462001DE91D /* Images.xcassets */; };
+		76B1F8411ABB4462001DE91D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B1F83F1ABB4462001DE91D /* MainMenu.xib */; };
+		76B1F84D1ABB4462001DE91D /* Dot_ProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F84C1ABB4462001DE91D /* Dot_ProducerTests.swift */; };
+		76B1F8581ABB45BC001DE91D /* SDPDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F8561ABB45BC001DE91D /* SDPDots.swift */; };
+		76B1F8591ABB45BC001DE91D /* SDPDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B1F8571ABB45BC001DE91D /* SDPDotView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B1F8471ABB4462001DE91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B1F8291ABB4462001DE91D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B1F8301ABB4462001DE91D;
+			remoteInfo = "Dot Producer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B1F8311ABB4462001DE91D /* Dot Producer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dot Producer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B1F8351ABB4462001DE91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B1F8361ABB4462001DE91D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76B1F8381ABB4462001DE91D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		76B1F83B1ABB4462001DE91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		76B1F83D1ABB4462001DE91D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76B1F8401ABB4462001DE91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		76B1F8461ABB4462001DE91D /* Dot ProducerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dot ProducerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B1F84B1ABB4462001DE91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B1F84C1ABB4462001DE91D /* Dot_ProducerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot_ProducerTests.swift; sourceTree = "<group>"; };
+		76B1F8561ABB45BC001DE91D /* SDPDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPDots.swift; sourceTree = "<group>"; };
+		76B1F8571ABB45BC001DE91D /* SDPDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPDotView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B1F82E1ABB4462001DE91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B1F8431ABB4462001DE91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B1F8281ABB4462001DE91D = {
+			isa = PBXGroup;
+			children = (
+				76B1F8331ABB4462001DE91D /* Dot Producer */,
+				76B1F8491ABB4462001DE91D /* Dot ProducerTests */,
+				76B1F8321ABB4462001DE91D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B1F8321ABB4462001DE91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B1F8311ABB4462001DE91D /* Dot Producer.app */,
+				76B1F8461ABB4462001DE91D /* Dot ProducerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B1F8331ABB4462001DE91D /* Dot Producer */ = {
+			isa = PBXGroup;
+			children = (
+				76B1F8561ABB45BC001DE91D /* SDPDots.swift */,
+				76B1F8571ABB45BC001DE91D /* SDPDotView.swift */,
+				76B1F8361ABB4462001DE91D /* AppDelegate.swift */,
+				76B1F8381ABB4462001DE91D /* Document.swift */,
+				76B1F83A1ABB4462001DE91D /* Document.xib */,
+				76B1F83D1ABB4462001DE91D /* Images.xcassets */,
+				76B1F83F1ABB4462001DE91D /* MainMenu.xib */,
+				76B1F8341ABB4462001DE91D /* Supporting Files */,
+			);
+			path = "Dot Producer";
+			sourceTree = "<group>";
+		};
+		76B1F8341ABB4462001DE91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B1F8351ABB4462001DE91D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B1F8491ABB4462001DE91D /* Dot ProducerTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B1F84C1ABB4462001DE91D /* Dot_ProducerTests.swift */,
+				76B1F84A1ABB4462001DE91D /* Supporting Files */,
+			);
+			path = "Dot ProducerTests";
+			sourceTree = "<group>";
+		};
+		76B1F84A1ABB4462001DE91D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B1F84B1ABB4462001DE91D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B1F8301ABB4462001DE91D /* Dot Producer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B1F8501ABB4462001DE91D /* Build configuration list for PBXNativeTarget "Dot Producer" */;
+			buildPhases = (
+				76B1F82D1ABB4462001DE91D /* Sources */,
+				76B1F82E1ABB4462001DE91D /* Frameworks */,
+				76B1F82F1ABB4462001DE91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dot Producer";
+			productName = "Dot Producer";
+			productReference = 76B1F8311ABB4462001DE91D /* Dot Producer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B1F8451ABB4462001DE91D /* Dot ProducerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B1F8531ABB4462001DE91D /* Build configuration list for PBXNativeTarget "Dot ProducerTests" */;
+			buildPhases = (
+				76B1F8421ABB4462001DE91D /* Sources */,
+				76B1F8431ABB4462001DE91D /* Frameworks */,
+				76B1F8441ABB4462001DE91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B1F8481ABB4462001DE91D /* PBXTargetDependency */,
+			);
+			name = "Dot ProducerTests";
+			productName = "Dot ProducerTests";
+			productReference = 76B1F8461ABB4462001DE91D /* Dot ProducerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B1F8291ABB4462001DE91D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Pablo Prietz";
+				TargetAttributes = {
+					76B1F8301ABB4462001DE91D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					76B1F8451ABB4462001DE91D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 76B1F8301ABB4462001DE91D;
+					};
+				};
+			};
+			buildConfigurationList = 76B1F82C1ABB4462001DE91D /* Build configuration list for PBXProject "Dot Producer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B1F8281ABB4462001DE91D;
+			productRefGroup = 76B1F8321ABB4462001DE91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B1F8301ABB4462001DE91D /* Dot Producer */,
+				76B1F8451ABB4462001DE91D /* Dot ProducerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B1F82F1ABB4462001DE91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B1F83C1ABB4462001DE91D /* Document.xib in Resources */,
+				76B1F83E1ABB4462001DE91D /* Images.xcassets in Resources */,
+				76B1F8411ABB4462001DE91D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B1F8441ABB4462001DE91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B1F82D1ABB4462001DE91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B1F8591ABB45BC001DE91D /* SDPDotView.swift in Sources */,
+				76B1F8391ABB4462001DE91D /* Document.swift in Sources */,
+				76B1F8581ABB45BC001DE91D /* SDPDots.swift in Sources */,
+				76B1F8371ABB4462001DE91D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B1F8421ABB4462001DE91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B1F84D1ABB4462001DE91D /* Dot_ProducerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B1F8481ABB4462001DE91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B1F8301ABB4462001DE91D /* Dot Producer */;
+			targetProxy = 76B1F8471ABB4462001DE91D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B1F83A1ABB4462001DE91D /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B1F83B1ABB4462001DE91D /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		76B1F83F1ABB4462001DE91D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B1F8401ABB4462001DE91D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B1F84E1ABB4462001DE91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76B1F84F1ABB4462001DE91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		76B1F8511ABB4462001DE91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dot Producer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76B1F8521ABB4462001DE91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dot Producer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76B1F8541ABB4462001DE91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dot ProducerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dot Producer.app/Contents/MacOS/Dot Producer";
+			};
+			name = Debug;
+		};
+		76B1F8551ABB4462001DE91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dot ProducerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dot Producer.app/Contents/MacOS/Dot Producer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B1F82C1ABB4462001DE91D /* Build configuration list for PBXProject "Dot Producer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B1F84E1ABB4462001DE91D /* Debug */,
+				76B1F84F1ABB4462001DE91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B1F8501ABB4462001DE91D /* Build configuration list for PBXNativeTarget "Dot Producer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B1F8511ABB4462001DE91D /* Debug */,
+				76B1F8521ABB4462001DE91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B1F8531ABB4462001DE91D /* Build configuration list for PBXNativeTarget "Dot ProducerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B1F8541ABB4462001DE91D /* Debug */,
+				76B1F8551ABB4462001DE91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B1F8291ABB4462001DE91D /* Project object */;
+}
