@@ -1,6 +1,6 @@
 //
 //  SDPDotView.swift
-//  Sinjas Dot Producer
+//  Dot Producer
 //
 //  Created by Pablo Prietz on 27.02.15.
 //  Copyright (c) 2015 Pablo Prietz. All rights reserved.
@@ -97,7 +97,7 @@ class SDPDotView: NSView {
 		bitrep?.size = bounds.size
 		self.cacheDisplayInRect(bounds, toBitmapImageRep: bitrep!)
 		let data = bitrep?.representationUsingType(
-			NSBitmapImageFileType.NSJPEGFileType,
+			NSBitmapImageFileType.NSPNGFileType,
 			properties: NSDictionary())
 		return data
 	}

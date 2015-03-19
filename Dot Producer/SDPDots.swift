@@ -1,6 +1,6 @@
 //
 //  SDPDots.swift
-//  Sinjas Dot Producer
+//  Dot Producer
 //
 //  Created by Pablo Prietz on 27.02.15.
 //  Copyright (c) 2015 Pablo Prietz. All rights reserved.

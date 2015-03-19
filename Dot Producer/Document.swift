@@ -92,7 +92,7 @@ class Document: NSDocument {
 		for turned in [false, true]
 		{
 
-			var filename = dots.fileDescription + (turned ? "_on" : "_off") + ".jpg"
+			var filename = dots.fileDescription + (turned ? "_on" : "_off") + ".png"
 			var loc = folder.URLByAppendingPathComponent(filename, isDirectory: false)
 
 			var img = images[turned ? 1 : 0]
